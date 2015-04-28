@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FiraSans-Medium.otf">
+            <string>FiraSans-Medium</string>
+            <string>FiraSans-Medium</string>
+        </mutableArray>
+        <mutableArray key="FiraSans-Regular.otf">
+            <string>FiraSans-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLAlert"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="950" verticalHuggingPriority="950" horizontalCompressionResistancePriority="950" verticalCompressionResistancePriority="950" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="sIX-X7-UF2">
+                    <rect key="frame" x="16" y="24" width="240" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="CgL-nR-78x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsJ-TY-Jav" userLabel="Horizontal Divider">
+                    <rect key="frame" x="0.0" y="105" width="272" height="1"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="9Uo-jT-mXb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyC-2n-8Bz" userLabel="Vertical Divider">
+                    <rect key="frame" x="136" y="106" width="1" height="44"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="b8R-qM-Pgo"/>
+                        <constraint firstAttribute="height" constant="44" id="cTG-2K-keS"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g68-bg-0at">
+                    <rect key="frame" x="0.0" y="106" width="136" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="tkh-G8-ok2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="14"/>
+                    <color key="tintColor" red="0.22745098039215686" green="0.59607843137254901" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Закрыть">
+                        <color key="titleColor" red="0.22745098039215686" green="0.59607843137254901" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjE-L4-N5c" userLabel="Done">
+                    <rect key="frame" x="137" y="106" width="135" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="xBE-TR-XgS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="14"/>
+                    <color key="tintColor" red="0.22745098039215686" green="0.59607843137254901" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" red="0.22745098039215686" green="0.59607843137254901" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hsJ-TY-Jav" secondAttribute="trailing" id="3Hq-o7-mAI"/>
+                <constraint firstItem="sIX-X7-UF2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="9n8-ey-eyK"/>
+                <constraint firstAttribute="centerX" secondItem="VyC-2n-8Bz" secondAttribute="centerX" id="C6P-Et-Jz5"/>
+                <constraint firstItem="BjE-L4-N5c" firstAttribute="leading" secondItem="VyC-2n-8Bz" secondAttribute="trailing" id="Dc5-Du-Y69"/>
+                <constraint firstItem="g68-bg-0at" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IIt-C7-0GS"/>
+                <constraint firstAttribute="trailing" secondItem="sIX-X7-UF2" secondAttribute="trailing" constant="16" id="RIj-fr-PHD"/>
+                <constraint firstItem="hsJ-TY-Jav" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UL4-Pi-KYw"/>
+                <constraint firstAttribute="bottom" secondItem="BjE-L4-N5c" secondAttribute="bottom" id="Vb9-5d-0XA"/>
+                <constraint firstAttribute="bottom" secondItem="hsJ-TY-Jav" secondAttribute="bottom" constant="44" id="XMT-Lb-z3X"/>
+                <constraint firstItem="sIX-X7-UF2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="YtZ-RI-PxQ"/>
+                <constraint firstItem="hsJ-TY-Jav" firstAttribute="top" secondItem="sIX-X7-UF2" secondAttribute="bottom" constant="24" id="bDp-kx-K3V"/>
+                <constraint firstItem="VyC-2n-8Bz" firstAttribute="leading" secondItem="g68-bg-0at" secondAttribute="trailing" id="caa-yV-7j3"/>
+                <constraint firstAttribute="bottom" secondItem="g68-bg-0at" secondAttribute="bottom" id="jsL-Qf-5u5"/>
+                <constraint firstAttribute="bottom" secondItem="VyC-2n-8Bz" secondAttribute="bottom" id="sKa-pB-CSc"/>
+                <constraint firstAttribute="trailing" secondItem="BjE-L4-N5c" secondAttribute="trailing" id="vKX-V7-Myq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="0.0" y="19"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
